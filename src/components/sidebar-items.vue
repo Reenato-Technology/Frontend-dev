@@ -12,7 +12,7 @@
     :class="[
       'bg-sidebar text-gray-100 flex flex-col transition-transform duration-300 ease-in-out z-50',
       'md:relative md:translate-x-0 md:w-56 lg:w-64',
-      'fixed inset-y-0 left-0 w-64',
+      'fixed inset-y-0 left-0 w-75',
       isOpen ? 'translate-x-0' : '-translate-x-full'
     ]"
   >
@@ -67,12 +67,18 @@
       <NavItem label="Audit Logs" icon="audit" />
     </nav>
 
-    <div class="p-4 border-t border-gray-800">
-      <div class="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-800 cursor-pointer transition-colors">
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Paterson" alt="User" class="w-10 h-10 rounded-full" />
+    <div class="p-4 border-t  border-gray-600">
+      <div class="flex items-center justify-between cursor-pointer bg-white gap-3 p-3 rounded-lg">
+        <div class="flex items-center gap-3">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D" alt="User" class="size-10 rounded-lg object-cover object-top" />
         <div class="flex-1 min-w-0">
-          <div class="font-semibold truncate text-sm">Paterson Paul</div>
-          <div class="text-gray-400 truncate text-xs">Landlord</div>
+          <div class="font-medium text-primary truncate text-sm">Paterson Paul</div>
+          <div class="text-gray-800 truncate text-xs">Landlord</div>
+        </div>
+       
+        </div>
+        <div class=" bg-gray-100  rounded-md p-0.5 text-primary border border-gray-300">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis-icon lucide-ellipsis"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
         </div>
       </div>
     </div>
