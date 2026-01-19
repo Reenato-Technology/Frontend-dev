@@ -174,14 +174,14 @@ emit('close') // Close modal
 emit('confirm') // Confirm deletion
 ```
 
-## ✅ Validation & Error Handling
+## Validation & Error Handling
 
 - Role name is required before submission
 - Save/Update buttons are disabled when form is invalid
 - Empty state message when no roles exist
 - Proper error boundaries and null checks
 
-## 🎯 UX Enhancements
+## UX Enhancements
 
 - Smooth modal transitions
 - Loading states indication with disabled buttons
@@ -191,7 +191,7 @@ emit('confirm') // Confirm deletion
 - Accessible color contrast ratios
 - Responsive design considerations
 
-## 📦 Dependencies
+## Dependencies
 
 No additional dependencies were added. The implementation uses:
 - Vue 3 (existing)
@@ -199,7 +199,7 @@ No additional dependencies were added. The implementation uses:
 - Tailwind CSS (existing)
 - Native SVG icons (no icon library needed)
 
-## 🧪 Testing Checklist
+## Testing Checklist
 
 - [x] Empty state displays correctly
 - [x] Add role modal opens and closes properly
@@ -217,7 +217,7 @@ No additional dependencies were added. The implementation uses:
 - [x] Chevron animations work smoothly
 - [x] Active states are visible
 
-## 🚀 Future Improvements
+## Improvements
 
 - API integration for persistent data storage
 - Pagination for large role lists
@@ -230,9 +230,28 @@ No additional dependencies were added. The implementation uses:
 
 ## 📸 Screenshots
 
-_(Screenshots would be added here showing the empty state, add role modal, edit modal, delete confirmation, and populated table)_
+Here are some screenshots showing the different states and modals in the app:
 
-## 🤝 Review Notes
+1. **Empty State**  
+![Empty State](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825796/Screenshot_2026-01-19_at_13.22.14_e44lch.png)
+
+2. **Add Role Modal**  
+![Add Role Modal](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825797/Screenshot_2026-01-19_at_13.22.45_k5tnna.png)
+
+3. **Edit Modal**  
+![Edit Modal](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825798/Screenshot_2026-01-19_at_13.22.29_i3noks.png)
+
+4. **Delete Confirmation**  
+![Delete Confirmation](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825799/Screenshot_2026-01-19_at_13.22.52_exryiv.png)
+
+5. **Populated Table – View 1**  
+![Populated Table 1](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825799/Screenshot_2026-01-19_at_13.23.00_meaock.png)
+
+6. **Populated Table – View 2**  
+![Populated Table 2](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825798/Screenshot_2026-01-19_at_13.23.07_qs23fd.png)
+
+
+## Review Notes
 
 This implementation follows:
 - Vue 3 best practices with Composition API
