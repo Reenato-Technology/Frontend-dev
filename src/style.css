@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+/* @import 'tw-animate-css'; */
+
+@theme inline{
+   --color-primary: var(--primary);
+   --color-primary-text: var(--primary-text);
+   --color-secondary: var(--secondary);
+   --color-secondary-text: var(--secondary-text);
+   --border-radius-btn: var(--rounded-button);
+   --font-size-base: var(--font);
+   --line-height-base: var(--line-height);
+   --color-sidebar: #111921;
+
+}
+
+:root {
+  --primary: #000130;
+  --primary-text: #ffffff;
+  --secondary: #FFFFFF;
+  --secondary-text: #000130;
+  --rounded-button: 8px;
+  --font: 24px;
+  --line-height: 32px;
+}
+
+
+@font-face {
+  font-family: 'redwing'; 
+  src: url('./assets/fonts/redwing-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'redwing'; 
+  src: url('./assets/fonts/redwing-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; 
+}
+
+
+h1, h2, h3, h4, h5, h6, .font-redwing {
+   font-family: 'redwing', sans-serif;
+  font-weight: 500;
+}
+
+@layer base{
+  body {
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  @apply bg-white font-sans text-primary;
+}
+
+input, select, textarea {
+  @apply border border-gray-300 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
+}
+
+
+
+.main-btn{
+  @apply bg-primary text-white font-semibold py-2 px-4 rounded-lg hover:opacity-90 transition-opacity;
+}
+
+
+/* button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+} */

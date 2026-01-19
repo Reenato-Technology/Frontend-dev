@@ -1,0 +1,14 @@
+export interface Permission {
+  id: string
+  name: string
+}
+
+export interface Role {
+  id: string
+  name: string
+  permissions: Permission[]
+  createdBy?: string
+  createdAt?: string
+}
+
+export type InputState = 'inactive' | 'active' | 'typing'
