@@ -238,16 +238,16 @@ Here are some screenshots showing the different states and modals in the app:
 2. **Add Role Modal**  
 ![Add Role Modal](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825797/Screenshot_2026-01-19_at_13.22.45_k5tnna.png)
 
-3. **Edit Modal**  
+3. **Add Role (With Validation)**  
 ![Edit Modal](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825798/Screenshot_2026-01-19_at_13.22.29_i3noks.png)
 
-4. **Delete Confirmation**  
+4. **Populated Table**  
 ![Delete Confirmation](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825799/Screenshot_2026-01-19_at_13.22.52_exryiv.png)
 
-5. **Populated Table – View 1**  
+5. **Edit Modal**  
 ![Populated Table 1](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825799/Screenshot_2026-01-19_at_13.23.00_meaock.png)
 
-6. **Populated Table – View 2**  
+6. **Delete Confirmation**  
 ![Populated Table 2](https://res.cloudinary.com/debgkcg8v/image/upload/v1768825798/Screenshot_2026-01-19_at_13.23.07_qs23fd.png)
 
 
